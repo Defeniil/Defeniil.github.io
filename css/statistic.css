@@ -1,0 +1,36 @@
+.statistic{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    align-items: center;
+}
+
+.set-value{
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.last-value{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    column-gap: 10px;
+}
+
+.last-value p{
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#canvas-holder{
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}

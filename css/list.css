@@ -1,0 +1,84 @@
+form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    row-gap: 25px;
+    align-items: center;
+}
+
+form label{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+input{
+    padding: 5px;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+.create{
+    padding: 5px;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+nav{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+ul{
+    display: flex;
+    column-gap: 25px;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    list-style: none;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.track{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: lightblue;
+    border-radius: 5px;
+    box-shadow: -5px 5px 10px 5px rgba(0, 51, 68, 0.26);
+}
+
+.track div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-button{
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 143, 143);
+    color: #fff;
+}
+.select-button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: lightblue;
+}

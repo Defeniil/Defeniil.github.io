@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/list.css">
+    <link rel="stylesheet" href="./css/statistic.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="create-track">
+        <label>
+            Поле ввода
+            <input type="text" id="add-treker" name="add-treker" placeholder="Стаканы в день">
+        </label>
+        <button type="submit" class="create">Создать</button>
+    </form>
+    <nav>
+        <ul>
+            <li>
+                <button class="track">
+                    <p>Название</p>
+                    <div>
+                        <p>Последний результат: </p>
+                        <span>10</span>
+                        <p>Лучший результат: </p>
+                        <span>12</span>
+                        <p>Всего: </p>
+                        <span>127</span>
+                    </div>
+                </button>
+            </li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div class="statistic">
+        <form class="set-value">
+            <input type="number" id="set-value" name="set-value" placeholder="Сегодня за день">
+            <button>Установить</button>
+        </form>
+        
+    </div>
+    <div id="canvas-holder">
+        <canvas id="steps"></canvas>
+   </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+    <script src="./js/main.js" type="module"></script>
+    <script src="./js/statistic.js" type="module"></script>
+    
+</body>
+</html>
